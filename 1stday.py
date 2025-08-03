@@ -4,7 +4,7 @@
 
 ''' dipesh is a good boy 
 gyanii boy 
-innocent boy '''
+inocent boy '''
 
 ##################################
 #variables 
