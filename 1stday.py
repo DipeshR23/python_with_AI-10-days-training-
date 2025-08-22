@@ -1,3 +1,4 @@
+import utils.session
 # #comments 
 # #single line  :-#dipesh is a good boy 
 # #multiline comments :- 
@@ -212,5 +213,76 @@
 # for i in dict1.items():
 #     print (i)
 
-dict1={"dipesh ":[1,2,3,4,5,6,7], "hari":[2,3,4,5,6]}
-print(dict1)
+# dict1={"dipesh ":[1,2,3,4,5,6,7], "hari":[2,3,4,5,6]}
+# print(dict1)
+
+# #day 3
+# #function
+# def function_name():
+#     print ("dipesh rijal")
+
+# function_name()   #function calling
+
+# #parameters
+# def sum(a,b):   #-------> parameters 
+#     return a+b
+
+# m=int(input("enter 1st num:"))
+# n=int(input("enter 2nd num:"))
+# print(f"sum of {m,n} is = {sum(m,n) }")     #------> arguments 
+
+#types of function 
+# , modules , user-defined , built in functions
+
+# def sub (a,b):
+#     return a-b
+# print(sub(4,2))
+
+
+# #check even or not 
+# def check_num(a):
+#     if (a%2==0):
+#         return True
+# m=int(input("enter 1st num:"))
+# if (check_num(m)):
+#    print("even ")
+# else:
+#     print("not even ")
+
+# #number of even in range 1 to 20
+# def count_even(a,b):
+#     count =0
+#     for i in range (a,b+1):
+#         if i%2==0:
+#             count+=1
+#     return count
+# a=int (input (" start of range :"))
+# b=int (input ("enter last of range :"))
+# num=count_even(a,b)
+# print (" numbers of even in 1 to 20 range =",num)
+
+# #
+# def calculater(a,b,c):
+#     if c=="+":
+#         return a+b
+#     elif c=="-":
+#         return a-b
+
+#     elif c=="*":
+#         return a*b
+#     elif c=="/":
+#         return a/b
+
+# a=int (input (" enter 1st num  :"))
+# b=int (input ("enter 2nd num :"))
+# c=str (input ("enter optr :"))
+# output=calculater(a,b,c)
+# print("output of {a c b} is=",output)
+
+    
+# ##
+# def cal(a,b):
+#     return a+b, a*b, a-b, a/b
+# print(cal(a,b))
+
+# 
